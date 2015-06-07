@@ -267,19 +267,19 @@ $ git fetch --dry-run
 	$ git merge <BRANCHNAME>
 	```
 
-	* Then delete your feature branch locally
+* To delete your feature branch locally
 
-	```
-	$ git branch -d <BRANCHNAME>
-	```
+```
+$ git branch -d <BRANCHNAME>
+```
 
-	* You can also delete the branch remotely in your forked project
+* To delete a branch remotely
 
-	```
-	$ git push origin --delete <BRANCHNAME>
-	```
+```
+$ git push origin --delete <BRANCHNAME>
+```
 
-* To pull from upstream
+* To pull up-to-date changes from upstream
 
 ```
 $ git pull upstream master
