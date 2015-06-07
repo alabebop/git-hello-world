@@ -244,14 +244,46 @@ $ git fetch --dry-run
 
 ### 10. REQUESTING YOU PULL PLEASE
 
-* To ask a project maintainer to pull in the changes you made in your fork copy into his original project, you make a **pull request**. You can do it in either of the following ways: 
+* To ask the project maintainer to pull in the changes you made in your forked copy into the original project, you make a **pull request**. You can do it in either of the following ways: 
 
 	* Go to the original project page and click "pull reauests" in the right side menu, click "new pull request", choose the right branch in the compare dropdowns, then click "create pull request", fill in your request message and click "send pull request".
 
-	* In your forked project, a "pull request" link could be automatically added by github on the top. Click this and do the same as explained in the first way.
+	* In your forked project's github page, a "pull request" link should be automatically added by github on the top. Click this and do the same as described in the first way.
 
 
+### 11. MERGE TADA
 
+* To merge locally
+	
+	* First, move into the branch you want to merge *into*
+	
+	```
+	$ git checkout master
+	```
+
+	* Then merge in your feature branch
+
+	```
+	$ git merge <BRANCHNAME>
+	```
+
+	* Then delete your feature branch locally
+
+	```
+	$ git branch -d <BRANCHNAME>
+	```
+
+	* You can also delete the branch remotely in your forked project
+
+	```
+	$ git push origin --delete <BRANCHNAME>
+	```
+
+* To pull from upstream
+
+```
+$ git pull upstream master
+```
 
 
 
