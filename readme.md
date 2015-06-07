@@ -22,3 +22,21 @@ Following is what I've picked up on my way, ordered in accordance with the eleve
 	$ git config --global user.name "Xiaoli Shen"
 	$ git config --global user.email "alabebop@gmail.com"
 	```
+
+2. REPOSITORY
+	* To make a new folder and go into it
+	```
+	$ mkdir hello-world
+	$ cd hello-world
+	```
+
+	* To create a new Git instance for a project
+	```
+	$ git init
+	```
+
+	* To check if a Git repo instance initiated
+	```
+	$ git status
+	```
+
