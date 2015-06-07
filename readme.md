@@ -107,7 +107,9 @@ Following is what I've picked up on the way through the eleven chapters of the w
 
 ### 5 REMOTE CONTROL
 
-* Given that you've created an empty project on github to sync with your local work, to connect local project to this remote project location on github server, first let your local git know of the remote location:
+* To add a remote location to local project
+
+	Given that you've created an empty project on github to sync with your local work, to connect local project to this remote project location on github server, first let your local git know of the remote location:
 	
 	```
 	$ git remote add origin https://...<URL OF YOUR GITHUB PROJECT>
@@ -140,9 +142,37 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	```
 	$ git remote -v
 	```
-	
 
-### 6. 
+
+### 6. FORKS
+
+* To create your own version of someone else's project or to contribute fixes or features to a project that owned by other github users, you need to first fork the project (click the FORK button in the github project page)
+
+* To clone a forked project to your local computer
+
+	```
+	$ git clone https://<forked project URL>
+	```
+
+* To connect cloned local copy to the original remote project (of someone else)
+
+	```
+	$ git remote add upstream https://<URL to the original project>
+	```
+
+	Here you named the remote location of the original project "upstream" - also a github norm.
+
+	If you view your local project's remote connections now
+
+	```
+	$ git remote -v
+	```
+	you'd see both your fork and the original project on github.
+
+
+### 7. BRANCHES AREN'T JUST FOR BIRDS
+
+
 
 
 
