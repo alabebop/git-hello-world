@@ -172,9 +172,57 @@ Following is what I've picked up on the way through the eleven chapters of the w
 
 ### 7. BRANCHES AREN'T JUST FOR BIRDS
 
+It's common practice to create a branch when you start to make changes (for a fix or a new feature), and keep all the changes in this branch until they are ready to be merged back into "master". In this way the master branch is kept stable and always ready to deploy.
 
 
+Note: Github will host and serve automatically website files in branches named "gh-pages". All sites like this can be found using this pattern for the URL:
 
+```
+http://githubusername.github.io/repositoryname
+```
+
+* To create a branch
+
+```
+$ git branch <BRANCHNAME>
+```
+
+* To go in a branch and work on it
+
+```
+$ git checkout <BRANCHNAME>
+```
+
+* Or to create and move into a new branch at the same time
+
+```
+$ git checkout -b <BRANCHNAME>
+``
+
+* To push local changes in a branch to remote
+
+```
+$ git push origin <BRANCHNAME>
+```
+
+* To see which branch you are currently in
+
+```
+$ git status
+```
+
+* To list all branches
+
+```
+$ git branch
+```
+
+* To rename current branch
+
+```
+$ git branch -m <NEWBRANCHNAME>
+
+```
 
 
 
