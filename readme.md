@@ -129,8 +129,20 @@ Following is what I've picked up on the way through the eleven chapters of the w
 
 	Here you're sending your "master" branch to your remote location "origin". If you have another branch whose changes you want to sync to "origin", replace "master" with this branch's name.
 
+* To pull in remote changes to local copy
 
+	```
+	$ git pull origin master
+	```
 
+* To view remote connections
+
+	```
+	$ git remote -v
+	```
+	
+
+### 6. 
 
 
 
