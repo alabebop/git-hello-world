@@ -221,7 +221,6 @@ $ git branch
 
 ```
 $ git branch -m <NEWBRANCHNAME>
-
 ```
 
 
