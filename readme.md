@@ -9,7 +9,7 @@ Now it is only logical to review what I've learnt, put them down to words and le
 
 ## Learning notes
 
-Following is what I've picked up on my way, ordered in accordance with the eleven chapters of the workshop. 
+Following is what I've picked up on the way through the eleven chapters of the workshop. 
 
 1. GET GIT - configure git
 	* To check git number
@@ -59,7 +59,7 @@ Following is what I've picked up on my way, ordered in accordance with the eleve
 	* To view differences made from the last commit
 	```
 	$ git diff
-	```
+	``
 
 
 
