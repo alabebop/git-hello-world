@@ -58,6 +58,12 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	(But I tend to use
 
 	```
+	$ git add .
+	```
+
+	to save some typing, or 
+
+	```
 	$ git add -A
 	```
 
