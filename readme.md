@@ -98,9 +98,36 @@ Following is what I've picked up on the way through the eleven chapters of the w
 
 ### 4 GITHUBBIN
 
+* To add your github username to git configuration
+
+	```
+	$ git config --global user.username alabebop
+	```
 
 
+### 5 REMOTE CONTROL
 
+* To connect local project to remote github server, first let your local git know of the remote project as follows:
+	
+	```
+	$ git remote add origin https://...<URL OF YOUR GITHUB PROJECT>
+	```
+
+	Here you named the main remote location of your project "origin" (it is a norm in github) and pointed its remote location to your github project URL. Each local project can have multiple remote locations.
+
+	If you have an automatically added "origin" remote, as is the case when using GitHub for Windows, use the following command to set its remote location URL:
+
+	```
+	$ git remote set-url origin https://...<URL OF YOUR GITHUB PROJECT>
+	```
+
+* To push local work to remote
+
+	```
+	$ git push origin master
+	```
+
+	Here you're sending your "master" branch to the remote location named "origin". If you have another branch whose changes you want to sync to remote "origin", replace "master" with this branch's name.
 
 
 
