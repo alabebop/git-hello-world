@@ -223,8 +223,9 @@ $ git branch
 $ git branch -m <NEWBRANCHNAME>
 ```
 
+### 8. IT'S A SMALL WORLD
 
-
+To add collaborators to your project, go to the project's github page, click setting on the right side menu, select "Collaborators" tab, type in the username to add, and click "Add".
 
 
 
