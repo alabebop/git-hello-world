@@ -19,12 +19,14 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	$ git --version
 	```
 
+
 * To configure user name and email
 
 	```
 	$ git config --global user.name "Xiaoli Shen"
 	$ git config --global user.email "alabebop@gmail.com"
 	```
+
 
 ### 2. REPOSITORY
 
@@ -35,17 +37,20 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	$ cd hello-world
 	```
 
+
 * To create a new Git instance for a project
 
 	```
 	$ git init
 	```
 
+
 * To check if a Git repo instance initiated and if there's change
 
 	```
 	$ git status
 	```
+
 
 ### 3. COMMIT TO IT
 
@@ -69,11 +74,13 @@ Following is what I've picked up on the way through the eleven chapters of the w
 
 	which adds everything changed in the entire working tree, not only the current directory)
 
+
 * To commit the changes to the repository's history
 
 	```
 	$ git commit -m "does something..."
 	```
+
 
 * To view differences made from the last commit
 
