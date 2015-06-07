@@ -87,7 +87,13 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	```
 	$ git diff
 	```
+	
+	And to get out of the compare view, press
 
+	```
+	$ q
+	```
+	(To find out this I've headed to stackoverflow 눈_눈)
 
 
 
