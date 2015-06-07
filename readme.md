@@ -107,15 +107,15 @@ Following is what I've picked up on the way through the eleven chapters of the w
 
 ### 5 REMOTE CONTROL
 
-* To connect local project to remote github server, first let your local git know of the remote project as follows:
+* Given that you've created an empty project on github to sync with your local work, to connect local project to this remote project location on github server, first let your local git know of the remote location:
 	
 	```
 	$ git remote add origin https://...<URL OF YOUR GITHUB PROJECT>
 	```
 
-	Here you named the main remote location of your project "origin" (it is a norm in github) and pointed its remote location to your github project URL. Each local project can have multiple remote locations.
+	Here you've added a remote location "origin" (as a norm for projects on github, the main remote location is to be named "origin") and linked it to the remote project URL from github. Each local project can have multiple remote locations.
 
-	If you have an automatically added "origin" remote, as is the case when using GitHub for Windows, use the following command to set its remote location URL:
+	If you've already had an automatically added remote location named "origin", as is the case when using GitHub for Windows, use the following command to set its URL:
 
 	```
 	$ git remote set-url origin https://...<URL OF YOUR GITHUB PROJECT>
@@ -127,7 +127,7 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	$ git push origin master
 	```
 
-	Here you're sending your "master" branch to the remote location named "origin". If you have another branch whose changes you want to sync to remote "origin", replace "master" with this branch's name.
+	Here you're sending your "master" branch to your remote location "origin". If you have another branch whose changes you want to sync to "origin", replace "master" with this branch's name.
 
 
 
