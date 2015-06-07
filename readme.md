@@ -11,7 +11,7 @@ Now it is only logical to review what I've learnt, put them down to words and le
 
 Following is what I've picked up on the way through the eleven chapters of the workshop. 
 
-1. GET GIT - configure git
+1. ### GET GIT - configure git
 	* To check git number
 	```
 	$ git --version
@@ -23,7 +23,7 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	$ git config --global user.email "alabebop@gmail.com"
 	```
 
-2. REPOSITORY
+2. ### REPOSITORY
 	* To make a new folder and go into it
 	```
 	$ mkdir hello-world
@@ -40,7 +40,7 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	$ git status
 	```
 
-3. COMMIT TO IT
+3. ### COMMIT TO IT
 	* To add a file to git
 	```
 	$ git add readme.txt
