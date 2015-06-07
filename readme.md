@@ -91,9 +91,31 @@ Following is what I've picked up on the way through the eleven chapters of the w
 	And to get out of the compare view, press
 
 	```
-	$ q
+	q
 	```
 	(To find out this I've headed to stackoverflow 눈_눈)
+
+
+### 4 GITHUBBIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
