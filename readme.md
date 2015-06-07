@@ -35,8 +35,36 @@ Following is what I've picked up on my way, ordered in accordance with the eleve
 	$ git init
 	```
 
-	* To check if a Git repo instance initiated
+	* To check if a Git repo instance initiated and if there's change
 	```
 	$ git status
 	```
+
+3. COMMIT TO IT
+	* To add a file to git
+	```
+	$ git add readme.txt
+	```
+	(But I tend to use
+	```
+	$ git add -A
+	```
+	which adds everything changed in the entire working tree, not only the current directory)
+
+	* To commit the changes to the repository's history
+	```
+	$ git commit -m "does something..."
+	```
+
+	* To view differences made from the last commit
+	```
+	$ git diff
+	```
+
+
+
+
+
+
+
 
