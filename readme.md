@@ -7,3 +7,12 @@ It was easy and welcoming to follow, informative, and also great fun. I was exci
 Now it is only logical to review what I've learnt, put them down to words and let them sink in, before the weekend's gone and before my memories fade.
 
 
+## Learning notes
+
+Following is what I've picked up on my way, ordered in accordance with the eleven chapters of the workshop. 
+
+1. GET GIT
+	* To check git number
+	```
+	$ git --version
+	```
