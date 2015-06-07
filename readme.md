@@ -11,8 +11,14 @@ Now it is only logical to review what I've learnt, put them down to words and le
 
 Following is what I've picked up on my way, ordered in accordance with the eleven chapters of the workshop. 
 
-1. GET GIT
+1. GET GIT - configure git
 	* To check git number
 	```
 	$ git --version
+	```
+
+	* To configure user name and email
+	```
+	$ git config --global user.name "Xiaoli Shen"
+	$ git config --global user.email "alabebop@gmail.com"
 	```
