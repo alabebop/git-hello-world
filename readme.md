@@ -197,7 +197,7 @@ $ git checkout <BRANCHNAME>
 
 ```
 $ git checkout -b <BRANCHNAME>
-```
+``
 
 * To push local changes in a branch to remote
 
@@ -222,7 +222,8 @@ $ git branch
 ```
 $ git branch -m <NEWBRANCHNAME>
 
-``
+```
+
 
 
 
